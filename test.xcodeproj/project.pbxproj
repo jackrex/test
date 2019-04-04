@@ -15,6 +15,7 @@
 		D81DF5B82255AC860049396C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81DF5B62255AC860049396C /* LaunchScreen.storyboard */; };
 		D81DF5C32255AC860049396C /* testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81DF5C22255AC860049396C /* testTests.swift */; };
 		D81DF5CE2255AC860049396C /* testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81DF5CD2255AC860049396C /* testUITests.swift */; };
+		D81DF5DC2255AC950049396C /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81DF5DB2255AC950049396C /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D81DF5C92255AC860049396C /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D81DF5CD2255AC860049396C /* testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUITests.swift; sourceTree = "<group>"; };
 		D81DF5CF2255AC860049396C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D81DF5DB2255AC950049396C /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				D81DF5B42255AC860049396C /* Assets.xcassets */,
 				D81DF5B62255AC860049396C /* LaunchScreen.storyboard */,
 				D81DF5B92255AC860049396C /* Info.plist */,
+				D81DF5DB2255AC950049396C /* Common.swift */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D81DF5DC2255AC950049396C /* Common.swift in Sources */,
 				D81DF5B02255AC840049396C /* SecondViewController.swift in Sources */,
 				D81DF5AC2255AC840049396C /* AppDelegate.swift in Sources */,
 				D81DF5AE2255AC840049396C /* FirstViewController.swift in Sources */,
